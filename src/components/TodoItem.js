@@ -1,9 +1,9 @@
 
-function TodoItem() {
+function TodoItem({text,completed}) {
     return (
       <li>
-        <span>
-          <div>TodoItem</div>
+        <span> 
+          <div>{text} </div>
         </span>
       </li>
     )
