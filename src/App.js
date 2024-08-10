@@ -4,6 +4,7 @@ import {TodoCounter} from './components/TodoCounter'
 import {TodoList} from './components/TodoList'
 import {TodoSearch} from './components/TodoSearch'
 import {TodoItem} from './components/TodoItem'
+import {TodoButton} from './components/TodoButton'
 function App() {
   return (
     <div className="App">
@@ -18,12 +19,10 @@ function App() {
 
       </TodoList>
 
-      {/* <CreateTodoButton /> */}
+      <TodoButton/>
     </div>
   );
 }
-
-
 
 
 export default App;
